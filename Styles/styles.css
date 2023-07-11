@@ -35,7 +35,7 @@
     border-style: none;
     margin-left: 240px;
     margin-top: 32px;
-
+    cursor: pointer;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -190,6 +190,7 @@
     font-weight: 700;
     text-align: center;
     border: none;
+    cursor: pointer;
     margin-top: 32px;
 }
 
@@ -232,28 +233,86 @@
 
 .latest-deal {
     color: #272727;
+    background-image: url('../images/Rectangle\ 9.png');
     text-align: center;
+    font-family: Lato;
+    width: 1440px;
+    height: 430px;
+    margin-top: 128px;
+}
+
+.latest-deal h1 {
+    padding-top: 122px;
+    color: #272727;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-    width: 1440px;
-    height: auto;
-    margin-top: 128px;
+}
+
+.latest-deal p {
+    color: #27272799;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.deal-30 {
+    display: inline;
+}
+
+.email-input {
+    border-radius: 8px;
+    background-color: #FFF;
+    width: 700px;
+    height: 64px;
+    margin-top: 48px;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: #27272799;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.subscribe {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 15px;
 }
 
 .footer {
     margin-top: 128px;
     background-color: #111010;
     width: 1922px;
-    height: 449px;
+    height: 430px;
     color: #FFF;
     text-align: center;
     font-family: Lato;
+
 }
 
-.footer-text h1 {
-    font-family: Lato;
+.footer h1 {
     font-size: 48px;
     font-weight: 800;
-    margin-top: 128px;
+    padding-top: 128px;
+}
+
+.footer p {
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
