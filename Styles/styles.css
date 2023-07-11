@@ -68,11 +68,9 @@
 
 .fig-1 {
     display: flex;
-    gap: 24px;
-    flex-direction: row;
-    margin-top: 48px;
-    justify-content: center;
-    gap: 24px;
+    justify-items: center;
+    align-items: center;
+    margin: 48px 85px 10px 85px;
 }
 
 .bg-1 {
