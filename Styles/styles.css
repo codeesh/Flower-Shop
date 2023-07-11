@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0%;
 }
 
 .header-ti {
@@ -46,4 +46,214 @@
     width: 635px;
     margin-top: 50px;
     margin-left: 240px;
+}
+
+.featured-fw h1 {
+    font-family: 'Lato';
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 178px;
+}
+
+.featured-fw p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.fig-1 {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    margin-top: 48px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.bg-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+    width: 464px;
+}
+
+.img-1 {
+    height: 428px;
+    width: 310px;
+    margin: 110px 78px 0px 76px;
+}
+
+.bg-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 538px;
+    width: 464px;
+}
+
+.img-2 {
+    height: 370px;
+    width: 370px;
+    margin: 117px 47px 51px 47px;
+}
+
+.bg-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 538px;
+    width: 464px;
+}
+
+.img-3 {
+    height: 471px;
+    width: 314px;
+    margin: 67px 75px 0px 75px;
+}
+
+#img-cap {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.rectangle-1 {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    margin-top: 195px;
+    justify-content: center;
+}
+
+.rec-1-service {
+    display: flex;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 600;
+    height: 320px;
+}
+
+.deals {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    margin-top: 128px;
+}
+
+.hot-25 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.pink {
+    color: #E55473;
+}
+
+.align-btn {
+    text-align: center;
+}
+
+.deals p {
+    margin-top: 24px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.btn-signup {
+    border-radius: 8px;
+    background: #E55473;
+    height: 64px;
+    width: 155px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    margin-top: 32px;
+}
+
+.deals-img {
+    width: 318px;
+    height: 420px;
+    margin-right: 120px;
+}
+
+.insta-bg {
+    background-color: #FFF;
+}
+
+.insta-text h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+}
+
+.insta-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.insta-img {
+    display: flex;
+    margin-top: 48px;
+    height: 396px;
+    width: 342px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.latest-deal {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    width: 1440px;
+    height: auto;
+    margin-top: 128px;
+}
+
+.footer {
+    margin-top: 128px;
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+}
+
+.footer-text h1 {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 128px;
 }
