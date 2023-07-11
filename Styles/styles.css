@@ -222,8 +222,8 @@
 .insta-img {
     display: flex;
     margin-top: 48px;
-    height: 396px;
-    width: 342px;
+    max-height: 396px;
+    max-width: 342px;
     justify-content: center;
     gap: 24px;
 }
